@@ -1,24 +1,29 @@
 {
-"name": "parali-saathi-server",
-"version": "1.0.0",
-"description": "Parali Saathi AI backend",
-"main": "index.js",
-"type": "module",
-"scripts": {
-"start": "node index.js",
-"dev": "nodemon index.js"
-},
-"dependencies": {
-"cors": "^2.8.5",
-"dotenv": "^16.4.7",
-"express": "^4.21.2",
-"openai": "^4.77.0"
-},
-"devDependencies": {
-"nodemon": "^3.1.9"
-}
+  "name": "parali-saathi",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
   "scripts": {
-  "start": "node index.js",
-  "dev": "nodemon index.js"
-}
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.117.3",
+    "i18next": "^26.4.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-i18next": "^17.0.16",
+    "react-router-dom": "^6.30.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "openai": "^4.77.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.2",
+    "vite": "^8.3.4",
+    "nodemon": "^3.1.9"
+  }
 }
